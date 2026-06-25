@@ -3,5 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Printf("Hello, world")
+	board := NewBoard()
+
+	for _, square := range board.Squares {
+		fmt.Printf("Square: %d:%d", square.xPos, square.yPos)
+	}
 }

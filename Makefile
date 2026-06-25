@@ -1,5 +1,5 @@
-run:
-	zig run src/main.zig
+run-rs:
+	cd rust && cargo run
 
-build:
-	zig build-exe src/main.zig
+run-go:
+	cd go && go run .

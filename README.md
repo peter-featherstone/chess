@@ -1,10 +1,17 @@
-# Chess - In Zig
+# Chess - In Various Languages
 
-This is just a personal project for me to learn Zig using something I
-enjoy, Chess.
+This is just a personal project for me to learn different languages (currently Rust and Go) using something that is complex enough but also something I enjoy, Chess.
 
-# Simple Commands
-Requires that you have `zig` installed on your machine.
+No AI used here.
 
-`make run` - To Run the application
-`make build` - To compile the application to a binary
+## Simple Commands
+
+### Rust
+
+Requires that you have `cargo` installed on your machine.
+- `make run-rs`
+
+### Go
+
+Requires that you have `go` installed on your machine.
+- `make run-go`
